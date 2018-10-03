@@ -1,0 +1,59 @@
+body{
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.aboutme-title {
+  margin-top: 0;
+  color: black;
+  text-align: center;
+  font-family: 'Gravitas One', cursive;
+  font-size: 40px;
+}
+
+.aboutme-content{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 500px;
+  text-align: center;;
+  border-radius: 5px;
+  background: inherit;
+  color: black;
+  margin: auto;
+  padding-right: 5px;
+  width: 50%;
+  opacity: .8%;
+
+}
+
+.textStyles {
+  color: black;
+  font-size: 44px;
+  line-height: 36px;
+  font-family: 'sans-serif';
+  text-align: center;
+  letter-spacing: 1em;
+  padding-left: 1em;
+}
+
+.bgStyles {
+  background: inherit;
+  padding: 36px;
+}
+
+.wordArt1style {
+  font-size:0;
+  width: 80%;
+  height: 50%;
+}
+.wordArt2style {
+  font-size:0;
+  width: 50%;
+  height: 40%;
+}
+.wordArt3style {
+  font-size:0;
+  width: 90%;
+  height: 50%;
+}

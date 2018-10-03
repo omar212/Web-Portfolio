@@ -1,0 +1,38 @@
+.projects {
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+        margin: 0 15px;
+        margin-top: 25px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(255, 255, 255, .87);
+    }
+
+    .text {
+        color: black;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        margin-top: 8px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-family: 'Lato', sans-serif;
+    }
+
+    .projects:hover .overlay {
+        opacity: 1;
+        box-shadow: 4px 3px rgba(107, 107, 107, .35);
+    }
