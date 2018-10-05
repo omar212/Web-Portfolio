@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ReactRevealText from 'react-reveal-text';
-import { AwesomeButton } from 'react-awesome-button';
+
 
 
 class LandingPage extends Component {

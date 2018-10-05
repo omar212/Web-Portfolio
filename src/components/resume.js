@@ -22,7 +22,7 @@ class Resume extends Component {
               <p></p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
               <h5>Address</h5>
-            <h5>122 Hacker place</h5>
+            <h5>122 Hacker Place</h5>
               <h5>Phone</h5>
             <h5>(347) 429 2283</h5>
               <h5>Web</h5>
@@ -62,8 +62,7 @@ class Resume extends Component {
               jobName={"Department of Education"}
               jobLocation={"New York,NY"}
               jobRole={"Substitute TA at John W. Lavelle Charter School "}
-              JobDescription1={"•	Provide one on one tutoring on all subjects to students."}
-              JobDescription2={"Teach children about algorithms and coding languages, such as Scratch and Python. Build projects to supplement curriculum, such as mBots, using Scratch/Arduino to code actions for the robot."}
+              JobDescription1={" Provide one on one tutoring on all subjects to students."}
               schoolMinor={"Mathematics"}/>
 
             <hr style={{borderTop: "3px solid silver"}}/>

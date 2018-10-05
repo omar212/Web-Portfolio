@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content, HeaderTabs,Tab } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/Main';
 import { Link } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
@@ -9,7 +9,6 @@ import { hot } from 'react-hot-loader';
 class App extends Component {
   render() {
     return (
-      /* Always shows a header, even in smaller screens. */
         <div style={{ backgroundImage: "url(./images/Hollywood.jpg)", height: '300px'}}>
           <Layout fixedHeader>
             <Header className="header-color" title={<Link style={{textDecoration: 'none',color:'white'}} to ="/"> My Portfolio</Link>} scroll>
@@ -17,7 +16,7 @@ class App extends Component {
                     <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/testTryProject">Projects</Link>
-                    <Link to="/gotgames">Got Games on Your Phone ?</Link>
+                    {/* <Link to="/gotgames">Got Games on Your Phone ?</Link> */}
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
@@ -28,7 +27,7 @@ class App extends Component {
                   <Link to="/projects">Projects</Link>
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/contact">Contact</Link>
-                  <Link to="/LoadingPage">Want to see that again ?</Link>
+                  <Link to="/Something Cool">Want to see something cool?</Link>
                 </Navigation>
               </Drawer>
               <Content>
