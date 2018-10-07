@@ -24,11 +24,7 @@ class LandingPage extends Component {
               <div style={{height:'436px'}}>
 
               </div>
-              {/* <img
-                src="https://purepng.com/public/uploads/large/fortnite-new-galaxy-skin-gm0.png"
-                alt = "fortnite"
-                className = "fortnite-img"/> */}
-
+    
               <div className= "banner-text">
                 <div style={{ textAlign: 'center' }}>
                     <h1>
@@ -40,13 +36,13 @@ class LandingPage extends Component {
 
                     <p> HTML/CSS| React | JavaScript | NodeJS | Express | MySQL | Java </p>
                       <div className="social-links">
-                          <a href = "http://google.com" rel="noopener noreferrer" target="_blank">
+                          <a href = "https://twitter.com/x_Omar_x1" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-twitter-square" aria-hidden="true"></i>
                           </a>
                           <a href = "https://github.com/omar212" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github-square" aria-hidden="true"></i>
                           </a>
-                          <a href = "http://google.com" rel="noopener noreferrer" target="_blank">
+                          <a href = "https://www.facebook.com/omar.elnagdy" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-facebook-square" aria-hidden="true"/>
                           </a>
                           <a href = "https://www.linkedin.com/in/omar-elnagdy-350b4116a" rel="noopener noreferrer" target="_blank">

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './aboutme.css'
 import ReactPlayer from 'react-player';
 import ReactRevealText from 'react-reveal-text';
-import '../bouncing/bouncing.css';
+import '.../bouncing/bouncing.css';
 import { Grid, Cell} from 'react-mdl';
-import Bye from './Bye/Bye';
+import Bye from '../Bye/Bye';
 
 class aboutme extends Component {
 

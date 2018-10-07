@@ -4,7 +4,7 @@ class GotGames extends Component {
   render(){
     return(
       <div>
-        <h1>hello</h1>
+        <h1>Still in construction</h1>
       </div>
     );
   }

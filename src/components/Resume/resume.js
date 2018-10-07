@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Education from './Education';
-import Expierence from './Expierence';
-import Skills from './Skills';
+import Education from './Resume/Education';
+import Expierence from './Resume/Expierence';
+import Skills from './Resume/Skills';
 
 class Resume extends Component {
   render() {
@@ -17,7 +17,7 @@ class Resume extends Component {
                   style={{paddingTop:'1em', height:'400px', borderRadius: '50%'}} />
               </div>
               <h2 style={{paddingTop:'1em', textAlign:'center',fontFamily: 'Gravitas One, cursive'}}> Omar Elnagdy </h2>
-              <h4 style={{color: 'black'}}>Web Developer !</h4>
+              <h4 style={{color: 'black'}}>Web Developer</h4>
               <hr style={{borderTop: '5px solid #833fb2',width:'50%'}} />
               <p></p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />

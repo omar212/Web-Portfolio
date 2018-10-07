@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Typography, Grid, Paper, Button } from '@material-ui/core';
 import ReactRevealText from 'react-reveal-text';
 import './testTryProject.css';
-import './aboutme.css';
+import './AboutMe/aboutme.css';
 
 class testTryProject extends Component {
   constructor() {
@@ -37,7 +37,7 @@ class testTryProject extends Component {
                                             demonstrated the implementation of how it works and the
                                             understanding of each concept using tKinter and Turtle.
                                         <div className = "flexRow">
-                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px"}} href="https://github.com/omar212/My-Web-Portfolio" target = "_blank" rel = "noopener noreferrer">
+                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px"}} href="https://github.com/omar212/Space-Invaders" target = "_blank" rel = "noopener noreferrer">
                                             GitHub
                                             </Button>
                                         </div>
@@ -76,7 +76,7 @@ class testTryProject extends Component {
                                   what inspired me to start developing a web portfolio and the expeirence has really enhanced what I know about web development.
                                   Creating my web portfolio solidified that web development is what I want to pursue with my career.
                                 <div className = "flexRow">
-                                    <Button variant = "contained" size = "large" color = "primary" style={{ padding: "5px 5px", margin: "5px 5px", marginTop: "5px", fontSize: "10px"}} href = "../images/MyWebPortfolio.gif" target = "_blank" rel = "noopener noreferrer">
+                                    <Button variant = "contained" size = "large" color = "primary" style={{ padding: "5px 5px", margin: "5px 5px", marginTop: "5px", fontSize: "10px"}} href = "https://github.com/omar212/Web-Portfolio" target = "_blank" rel = "noopener noreferrer">
                                     GitHub
                                     </Button>
                                 </div>
@@ -98,7 +98,7 @@ class testTryProject extends Component {
                                              on Xcode that simulated similar elements that were in "Flappy Bird" to create my very own "Drizzy Bird" app.
 
                                             <div className = "flexRow">
-                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212" target = "_blank" rel = "noopener noreferrer">
+                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212/" target = "_blank" rel = "noopener noreferrer">
                                                 GitHub
                                             </Button>
                                             </div>

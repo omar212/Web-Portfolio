@@ -1,10 +1,10 @@
 import React from 'react';
 import LandingPage from './LandingPage';
-import aboutme from './aboutme';
+import aboutme from './AboutMe/aboutme';
 // import projects from './projects';
-import testTryProject from './testTryProject';
-import Resume from './resume';
-import Contact from './contact';
+import testTryProject from './Project/testTryProject';
+import Resume from './Resume/resume';
+import Contact from './Contact/contact';
 // import GotGames from './GotGames';
 import { Switch, Route } from 'react-router-dom';
 
