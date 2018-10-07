@@ -32,7 +32,7 @@ class testTryProject extends Component {
                                     </Typography>
                                     <div className = "overlay flexCenter">
                                         <div className = "text">
-                                            This project was more a self-achieveing assignment that I later
+                                            This project was more of a self-achieveing assignment that I later
                                             presented to a middle school student that I was tutoring. I
                                             demonstrated the implementation of how it works and the
                                             understanding of each concept using tKinter and Turtle.
@@ -72,8 +72,8 @@ class testTryProject extends Component {
                             </Typography>
                             <div className = "overlay flexCenter">
                                 <div className = "text">
-                                  Paper to me is so 2000; imagine having a resume that not only is interactive, but also aesthecically pleasing! This is
-                                  what inspired me to start developing a web portfolio and the expierence has really enhanced what I know about web development.
+                                  Paper is so 2000; imagine having a resume that not only is interactive, but also aesthecically pleasing! This is
+                                  what inspired me to start developing a web portfolio and the expeirence has really enhanced what I know about web development.
                                   Creating my web portfolio solidified that web development is what I want to pursue with my career.
                                 <div className = "flexRow">
                                     <Button variant = "contained" size = "large" color = "primary" style={{ padding: "5px 5px", margin: "5px 5px", marginTop: "5px", fontSize: "10px"}} href = "../images/MyWebPortfolio.gif" target = "_blank" rel = "noopener noreferrer">
@@ -92,12 +92,11 @@ class testTryProject extends Component {
                                         </Typography>
                                         <div className = "overlay flexCenter">
                                         <div className = "text">
-                                            This project was one of my first projects in Swift.
-                                            I used to be so obsessed with the game Flappy Bird that I just
-                                            felt as a computer programmer, why can't I play my own game. So I built a
-                                            semi-functional app on xcode that simulated similar elements such as the Flappy Bird.
-                                            Which took me quick a while. I hope to one day deploy an orginial idea but for an app,
-                                            but for now i prefer to learn the concepts.
+
+                                            "Drizzy Bird" was one of my first projects on swift. I was obessed with the game
+                                            "Flappy Bird" and as a computer programmer, I wondered why not just make my own game to play? So, I built a semi-functional app
+                                             on Xcode that simulated similar elements that were in "Flappy Bird" to create my very own "Drizzy Bird" app.
+
                                             <div className = "flexRow">
                                             <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212" target = "_blank" rel = "noopener noreferrer">
                                                 GitHub

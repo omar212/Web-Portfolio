@@ -32,7 +32,7 @@ componentDidMount() {
              <h1 className="aboutme-title"> Everything You Need To Know About Me </h1>
               <div className="aboutme-content">
                 <p style={{fontSize: '20px',lineHeight: '1.6'}}>
-                  Before I start talking about myself, I want to you to feel proud of yourself for getting this far.
+                  Before I start talking about myself, I want you to feel proud of yourself for getting this far.
                   Let's be honest, we all want to talk our best qualities, but there is only one truth. That truth is that we
                   are not all as perfect as our resumes make us appear to be. Don't fret though! All you have to do is
                   be the perfect you. So without further ado, let me tell you how I be the perfect me.</p>
@@ -104,9 +104,9 @@ componentDidMount() {
               <div class="arrow bounce">
                 <i class="fa fa-arrow-down fa-2x"></i>
             </div> </p>
-              <p style={{fontSize:'30px',lineHeight: '1.6'}}>Hey, you're still here! that's good. So I am a big Drake fan but every once in a
-                while I do like a calm melody and relaxation session, from a long day of coding.
-                 Which led me to learning what I love till this day,piano. Click it and get that calm feeling that I get.</p>
+          <p style={{fontSize:'30px',lineHeight: '1.6'}}>Hey, you're still here! That's good. So I am a big Drake fan, but every once in a
+                while I do like a calm melody and relaxation session from a long day of coding.
+                This led me to discovering another one of my passions: the piano. Press play below to get a taste of the serenity I have when I play</p>
                <br/>
                <ReactPlayer
                  controls
@@ -115,8 +115,8 @@ componentDidMount() {
                <br />
                <p style={{fontSize:'30px',lineHeight: '1.6'}}>I hope you feel more relieved after listening to that, I definitely do. </p>
                 <br />
-              <p style={{fontSize:'30px',lineHeight: '1.6'}}> Now you know a little bit about me and I hope after reading, listening, and watching,
-                I inspired you to go on vacation, learn a new skill, play an instrument. Do something out of your comfort zone because you never how these dots will connect in the future.
+              <p style={{fontSize:'30px',lineHeight: '1.6'}}> Now you know a little bit about me. I hope after reading, listening, and watching,
+                I inspired you to go on vacation, learn a new skill, or play an instrument. Do something out of your comfort zone because you never how these dots will connect in the future.
                 Like Steve Jobs once said </p>
               <p style={{fontSize:'45px',lineHeight: '1.6'}}><em>“You can't connect the dots looking forward; you can only connect them looking backwards...""</em> </p>
               <br/>

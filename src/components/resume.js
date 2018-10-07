@@ -63,6 +63,7 @@ class Resume extends Component {
               jobLocation={"New York,NY"}
               jobRole={"Substitute TA at John W. Lavelle Charter School "}
               JobDescription1={" Provide one on one tutoring on all subjects to students."}
+              JobDescription2={" Teach coding languages, such as basic C++ and JavaScript"}
               schoolMinor={"Mathematics"}/>
 
             <hr style={{borderTop: "3px solid silver"}}/>

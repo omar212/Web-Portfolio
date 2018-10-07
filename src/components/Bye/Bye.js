@@ -5,7 +5,7 @@ class Bye extends Component {
   render(){
     return(
       <div class="container">
-      	<svg viewBox="0 0 1418 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
+      	{/* <svg viewBox="0 0 1418 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink"> */}
       		<title>Omar Elnagdy</title>
       		<g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
       			<text id="@WebDesignerMag" stroke="#fff" fill="#645F5A" font-weight="normal" font-family="PermanentMarker-Regular, Permanent Marker" font-size="144">
@@ -21,6 +21,7 @@ class Bye extends Component {
       					<tspan>A</tspan>
       					<tspan>T</tspan>
                 <tspan> </tspan>
+                <tspan>A</tspan>
       					<tspan>D</tspan>
                 <tspan>A</tspan>
                 <tspan>Y</tspan>
@@ -28,7 +29,7 @@ class Bye extends Component {
       				</tspan>
       			</text>
       		</g>
-      	</svg>
+      	{/* </svg> */}
 
       </div>
 
