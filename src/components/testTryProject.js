@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Typography, Grid, Paper, Button } from '@material-ui/core';
 import ReactRevealText from 'react-reveal-text';
 import './testTryProject.css';
-import './AboutMe/aboutme.css';
+import './aboutme.css';
+
 
 class testTryProject extends Component {
   constructor() {
@@ -66,22 +67,24 @@ class testTryProject extends Component {
                         </Grid>
                         <Grid item xs = "auto" sm = "auto" md = "auto" lg = "auto" xl = "auto">
                             <Paper className="projects">
-                            <img id = "projectimg" src = {require("../images/MyWebPortfolio.gif")} alt = "web" />
-                            <Typography className = "flexRow " variant = "display1" style = {{ color: "black", padding: "10px 0" }}>
+                                <img id = "projectimg" src = {require("../images/MyWebPortfolio.gif")} alt = "web" />
+                                <Typography className = "flexRow " variant = "display1" style = {{ color: "black", padding: "10px 0" }}>
                                 Web Portfolio
-                            </Typography>
-                            <div className = "overlay flexCenter">
+                                </Typography>
+                                <div className = "overlay flexCenter">
                                 <div className = "text">
-                                  Paper is so 2000; imagine having a resume that not only is interactive, but also aesthecically pleasing! This is
-                                  what inspired me to start developing a web portfolio and the expeirence has really enhanced what I know about web development.
-                                  Creating my web portfolio solidified that web development is what I want to pursue with my career.
-                                <div className = "flexRow">
+
+                                            Paper is so 2000; imagine having a resume that not only is interactive, but also aesthecically pleasing! This is
+                                            what inspired me to start developing a web portfolio and the expeirence has really enhanced what I know about web development.
+                                            Creating my web portfolio solidified that web development is what I want to pursue with my career.
+
+                                  <div className = "flexRow">
                                     <Button variant = "contained" size = "large" color = "primary" style={{ padding: "5px 5px", margin: "5px 5px", marginTop: "5px", fontSize: "10px"}} href = "https://github.com/omar212/Web-Portfolio" target = "_blank" rel = "noopener noreferrer">
                                     GitHub
                                     </Button>
                                 </div>
                                 </div>
-                            </div>
+                              </div>
                             </Paper>
                         </Grid>
                         <Grid item xs = "auto" sm = "auto" md = "auto" lg = "auto" xl = "auto">

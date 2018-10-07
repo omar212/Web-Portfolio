@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './aboutme.css'
+import './aboutme.css';
 import ReactPlayer from 'react-player';
 import ReactRevealText from 'react-reveal-text';
-import '.../bouncing/bouncing.css';
+import '../bouncing/bouncing.css';
 import { Grid, Cell} from 'react-mdl';
-import Bye from '../Bye/Bye';
+import Bye from './Bye/Bye';
+
 
 class aboutme extends Component {
 
@@ -129,34 +130,3 @@ componentDidMount() {
 }
 
 export default aboutme;
-// constructor(props) {
-//   super(props);
-//   this.state = {
-//     sound:
-//     playStatus: false,
-//     playFromPosition: 300,
-//     onLoading: false,
-//     onPlaying: false,
-//     onFinishedPlaying: false
-//   }
-//
-// }
-//
-// handleSongLoading = () => {
-//   const doesShow = this.state.sound;
-//   this.setState({showPersons: !doesShow});
-// }
-//
-// toggleShowReact = () => {
-//   const Show = this.state.showReact;
-//   this.setState({showReact: !Show})
-// }
-// render() {
-//   if(this.state.soundStatus){
-//     sound =
-//       <Sound
-//           playStatus={this.state.persons}
-//           onLoading={this.deletePersonsHandler}
-//           onPlaying={this.nameChangeHandler}
-//           onFinishedPlaying = {this.ageChangedHandler}/>;
-//   }

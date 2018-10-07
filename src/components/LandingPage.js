@@ -24,7 +24,7 @@ class LandingPage extends Component {
               <div style={{height:'436px'}}>
 
               </div>
-    
+
               <div className= "banner-text">
                 <div style={{ textAlign: 'center' }}>
                     <h1>
