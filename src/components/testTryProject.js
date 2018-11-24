@@ -57,7 +57,7 @@ class testTryProject extends Component {
                                           Implemented a combination of CunyFirst and RateMyProfessor using MySQL to create the database of factual information with Triggers & Procedures, NodeJS and HTML/CSS, to assemble the web page aspect.
                                             Designed functionalities that can take in an input and search for that specific class and allow the user to add the class to an array, called the shopping cart. Each class has a summary of all the specifics of the course such as PreReqs, ratings, difficulty, professors, etc.
                                             <div className = "flexRow">
-                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212/CUNYFirst-RateMyProfessors-Hybrid" target = "_blank" rel = "noopener noreferrer">
+                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/buenoluis007/CUNYFirst-RateMyProfessors-Hybrid" target = "_blank" rel = "noopener noreferrer">
                                                 GitHub
                                             </Button>
                                             </div>
@@ -101,7 +101,29 @@ class testTryProject extends Component {
                                              on Xcode that simulated similar elements that were in "Flappy Bird" to create my very own "Drizzy Bird" app.
 
                                             <div className = "flexRow">
-                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212/" target = "_blank" rel = "noopener noreferrer">
+                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212/Drizzy-Bird" target = "_blank" rel = "noopener noreferrer">
+                                                GitHub
+                                            </Button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                </Paper>
+                        </Grid>
+                        <Grid item xs = "auto" sm = "auto" md = "auto" lg = "auto" xl = "auto">
+                                <Paper className="projects">
+                                        <img id = "projectimg" src = {require("../images/iAm.gif")} alt = "iAm" />
+                                        <Typography className = "flexRow" variant = "display1" style = {{ color: "black", padding: "10px 0" }}>
+                                        iAm App
+                                        </Typography>
+                                        <div className = "overlay flexCenter">
+                                        <div className = "text">
+                                            To bring the knowledge of these women to young girls that may doubt themselves
+                                            or have already dismissed a potential future in STEM we created an App called that displays 'flashcards' of
+                                            influential women in the history of STEM: mathematicians, computer scientists, engineers, inventors, physicist, biologists, and
+                                            other STEM related fields that relate and connect to young girls who to sign up to these women. As well as abling them to contact the role model they choose by using
+                                            direct messaging service. The goal is to try to match the profiles of the women with interests that young girls have provided.
+                                            <div className = "flexRow">
+                                            <Button variant = "contained" size = "large" color = "primary" style = {{ padding: "5px 5px", margin: "5px 5px", fontSize: "10px" }} href = "https://github.com/omar212/Women" target = "_blank" rel = "noopener noreferrer">
                                                 GitHub
                                             </Button>
                                             </div>

@@ -15,7 +15,7 @@ class App extends Component {
                 <Navigation>
                     <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/testTryProject">Projects</Link>
+                    <Link to="/Projects">Projects</Link>
                     {/* <Link to="/gotgames">Got Games on Your Phone ?</Link> */}
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/contact">Contact</Link>
@@ -24,10 +24,10 @@ class App extends Component {
               <Drawer title="Title" style={{textDecoration: 'none',color:'white'}}>
                 <Navigation>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/testTryProject">Projects</Link>
+                  <Link to="/Projects">Projects</Link>
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/contact">Contact</Link>
-                  <Link to="/Something Cool">Want to see something cool?</Link>
+                  {/* <Link to="/Something Cool">Want to see something cool?</Link> */}
                 </Navigation>
               </Drawer>
               <Content>

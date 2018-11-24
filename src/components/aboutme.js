@@ -29,13 +29,13 @@ componentDidMount() {
                   <ReactRevealText show={this.state.show} text="WELCOME TO MY LIFE" />
               </div>
             </div>
-            <br />
+
              <h1 className="aboutme-title"> Everything You Need To Know About Me </h1>
               <div className="aboutme-content">
                 <p style={{fontSize: '20px',lineHeight: '1.6'}}>
                   Before I start talking about myself, I want you to feel proud of yourself for getting this far.
                   Let's be honest, we all want to talk our best qualities, but there is only one truth. That truth is that we
-                  are not all as perfect as our resumes make us appear to be. Don't fret though! All you have to do is
+                  are not all as perfect as our resumes make us appear to be. Don"'"t fret though! All you have to do is
                   be the perfect you. So without further ado, let me tell you how I be the perfect me.</p>
 
                 <h2 style={{fontFamily: 'Fahkwang sans-serif', textAlign:'center'}}><em> I love traveling!</em></h2>

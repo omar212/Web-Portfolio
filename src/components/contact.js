@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { List, ListItem, ListItemContent, Grid, Cell } from 'react-mdl';
 
 
+
 class Contact extends Component {
+
   render() {
     return(
       <div className="contact-body">
@@ -15,7 +17,7 @@ class Contact extends Component {
               className="contactAvator"/>
             <p style={{lineHeight: '1.6', fontSize:'30px',margin: 'auto', paddingTop:'20px',paddingBottom: '20px', fontFamily: 'Concert One, cursive', textAlign:'center',}}>
               I'm available at all times, so please don't hesitate to contact me for any services, internships, jobs,
-              or even just a hello !
+              or even just a hello!
             </p>
           </Cell>
           <Cell col={6}>
@@ -33,7 +35,8 @@ class Contact extends Component {
             <List>
               <ListItem>
                 <ListItemContent style={{fontSize: '30px', fontFamily: 'K2D'}}>
-                  <i className="fa fa-envelope" aria-hidden="true"/> omarelnagdy16@gmail.com
+                  <i className="fa fa-envelope" aria-hidden="true">
+                  </i>   <a href="mailto:omarelnagdy16@gmail.com?subject=Web Portfolio Interest&body=Dear Omar,">omarelnagdy16@gmail.com</a>
                 </ListItemContent>
               </ListItem>
             </List>

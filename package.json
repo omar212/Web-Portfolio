@@ -44,6 +44,7 @@
     "react-dom": "^16.5.2",
     "react-grid-gallery": "^0.5.3",
     "react-hot-loader": "^4.3.11",
+    "react-html-email": "^3.0.0",
     "react-image": "^1.5.1",
     "react-loading-screen": "0.0.17",
     "react-mdl": "^1.11.0",

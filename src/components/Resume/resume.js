@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
               <div style={{textAlign:'center'}}>
                 <img
-                  src={require("../images/linkedinPic.png")}
+                  src={require("../../images/linkedinPic.png")}
                   alt="profile"
                   style={{paddingTop:'1em', height:'400px', borderRadius: '50%'}} />
               </div>

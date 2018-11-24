@@ -30,10 +30,10 @@ body{
 .textStyles {
   color: black;
   font-size: 44px;
-  line-height: 36px;
+  line-height: 48px;
   font-family: 'sans-serif';
   text-align: center;
-  letter-spacing: 1em;
+  letter-spacing: .5em;
   padding-left: 1em;
 }
 

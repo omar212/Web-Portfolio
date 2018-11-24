@@ -7,8 +7,8 @@ class Bye extends Component {
       <div class="container">
       	<svg viewBox="0 0 1418 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
       		<title>Omar Elnagdy</title>
-      		<g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
-      			<text id="@WebDesignerMag" stroke="#fff" fill="#645F5A" font-weight="normal" font-family="PermanentMarker-Regular, Permanent Marker" font-size="144">
+      		<g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
+      			<text id="@WebDesignerMag" stroke="#fff" fill="#645F5A" fontWeight="normal" fontFamily="PermanentMarker-Regular, Permanent Marker" fontSize="144">
       				<tspan x="3" y="109">
       					<tspan>H</tspan>
       					<tspan>A</tspan>
